@@ -9,6 +9,14 @@ git commit -m '<mensaje que se agrega al commit>' # guardar las modif precedente
 git status              # mostrar el estadod de mi proyecto git en este instante
 git log                 # muestra el record de los commits 
 git restore <nom du fichier / dossier> #restaura lo que quieras del ultimo commit
+git branch <nom de la branch>  #crear una branch
+git branch              # regresa a branch master
 git checkout <nom du branche ou hash du commit>  #se desplaza a la cabeza de la lectura de la rama o id commit
-git branch <nom de la branch>
-git branch
+git merge <nom de la branche> -m "<message du commit>" #fusiona la rama mencionanda al interior de la rama actual, creando un commit
+
+
+#EXTRAS
+
+git log --pretty=online --graph
+
+
