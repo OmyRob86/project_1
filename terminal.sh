@@ -13,7 +13,10 @@ git branch <nom de la branch>  #crear una branch
 git branch              # regresa a branch master
 git checkout <nom du branche ou hash du commit>  #se desplaza a la cabeza de la lectura de la rama o id commit
 git merge <nom de la branche> -m "<message du commit>" #fusiona la rama mencionanda al interior de la rama actual, creando un commit
-
+git remote              #liste les depots distantes de notre projet
+git remote add <nom du depot distant> <adres du depot> #ajoute un nuveaur depot distant
+git push                #envoie la brnche courante sur la branche distant du depot choisi
+git push -u <nom de depot>    #idem, mais parametre la branche locale pour correspondre a la branch distante
 
 #EXTRAS
 
