@@ -10,5 +10,8 @@ git status              # mostrar el estadod de mi proyecto git en este instante
 git log                 # muestra el record de los commits 
 git restore <nom du fichier / dossier> #restaura lo que quieras del ultimo commit
 git checkout <nom du branche ou hash du commit>  #se desplaza a la cabeza de la lectura de la rama o id commit
-git branch <nom de la branch>
-git branch
+git branch <nom de la branch>   #crear una branch
+git branch              #list des branch existants
+git merge <nom de la branch>
+git remote              #list los depositos distantes
+git remote add <nom du dépot distant> <adresse du depot> #ajoute un nuveau depot
