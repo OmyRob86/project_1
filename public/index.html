@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cuarto Proyecto - agragamos utilisadores</title>
+        <link type="text/css" rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <h1>Formulaire articles</h1>
+        <form method="POST" action="/api/articles/create">
+            <input
+                type="title"
+                name="title"
+                placeholder="Entrez le titre de l'article"
+            />
+            <input
+                type="text"
+                name="content"
+                placeholder="Entrez votre article"
+            />
+            <button type="submit">Creér article</button>
+        </form>
+    </body>
+</html>
