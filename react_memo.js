@@ -14,6 +14,17 @@ const handleSubmit = (event) => {
 //changement d'un state via fromulaire
 // -- DANS LA PARTIE FUNCTIONELLE (EN HAUT)
 const handleChange = (event) => {
+    
+    switch (event.target.name) {
+        case "state":
+            setState(event.target.name);
+            break;
+        // no default
+    }
+}
+
+const handleChange = (event) => {
+    
     switch (event.target.name) {
         case "state":
             setState(event.target.name);
